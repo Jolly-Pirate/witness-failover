@@ -48,3 +48,7 @@ Start and enter a screen session: `screen -S failover`
 Start the script: `./witness_failover.sh`
 
 Detach from the screen session with `CTRL-a-d`. This will leave it running in the background.
+
+Reattach to the session with `screen -r failover` to monitor its status.
+
+If you want to terminate the script press `CTRL-c`, then type `exit` to close the screen session.
